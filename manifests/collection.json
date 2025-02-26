@@ -5,6 +5,10 @@
   "label": { "en": ["Fashion MNIST Annotations"] },
   "items": [
     {
+      "id": "https://raw.githubusercontent.com/Ashkanaln/fashion-mnist-annotations/main/manifests/test_4.json",
+      "type": "Manifest"
+    },
+    {
       "id": "https://raw.githubusercontent.com/Ashkanaln/fashion-mnist-annotations/main/manifests/test_12.json",
       "type": "Manifest"
     },
@@ -22,10 +26,6 @@
     },
     {
       "id": "https://raw.githubusercontent.com/Ashkanaln/fashion-mnist-annotations/main/manifests/test_29.json",
-      "type": "Manifest"
-    },
-    {
-      "id": "https://raw.githubusercontent.com/Ashkanaln/fashion-mnist-annotations/main/manifests/test_4.json",
       "type": "Manifest"
     },
     {
