@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://raw.githubusercontent.com/Ashkanaln/fashion-mnist-annotations/main/manifests/test_12.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Fashion MNIST Image 12"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://raw.githubusercontent.com/Ashkanaln/fashion-mnist-annotations/main/images/test_12.png",
+      "type": "Canvas",
+      "annotations": [
+        {
+          "id": "https://raw.githubusercontent.com/Ashkanaln/fashion-mnist-annotations/main/annotations/test_12_anno1",
+          "type": "Annotation",
+          "body": [
+            {
+              "type": "TextualBody",
+              "value": "True: Sneaker\nPredicted: Sandal\nConfidence: 0.92",
+              "format": "text/plain"
+            }
+          ],
+          "target": "https://raw.githubusercontent.com/Ashkanaln/fashion-mnist-annotations/main/images/test_12.png"
+        }
+      ]
+    }
+  ]
+}
