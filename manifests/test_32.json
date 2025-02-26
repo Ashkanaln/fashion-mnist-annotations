@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://raw.githubusercontent.com/your-username/fashion-mnist-annotations/main/manifests/test_32.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Fashion MNIST Image 32"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://raw.githubusercontent.com/your-username/fashion-mnist-annotations/main/images/test_32.png",
+      "type": "Canvas",
+      "annotations": [
+        {
+          "id": "https://raw.githubusercontent.com/your-username/fashion-mnist-annotations/main/annotations/test_32_anno1",
+          "type": "Annotation",
+          "body": [
+            {
+              "type": "TextualBody",
+              "value": "True: Dress\nPredicted: Trouser\nConfidence: 0.53",
+              "format": "text/plain"
+            }
+          ],
+          "target": "https://raw.githubusercontent.com/your-username/fashion-mnist-annotations/main/images/test_32.png"
+        }
+      ]
+    }
+  ]
+}

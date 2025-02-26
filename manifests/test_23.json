@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://raw.githubusercontent.com/your-username/fashion-mnist-annotations/main/manifests/test_23.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Fashion MNIST Image 23"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://raw.githubusercontent.com/your-username/fashion-mnist-annotations/main/images/test_23.png",
+      "type": "Canvas",
+      "annotations": [
+        {
+          "id": "https://raw.githubusercontent.com/your-username/fashion-mnist-annotations/main/annotations/test_23_anno1",
+          "type": "Annotation",
+          "body": [
+            {
+              "type": "TextualBody",
+              "value": "True: Ankle boot\nPredicted: Sandal\nConfidence: 1.00",
+              "format": "text/plain"
+            }
+          ],
+          "target": "https://raw.githubusercontent.com/your-username/fashion-mnist-annotations/main/images/test_23.png"
+        }
+      ]
+    }
+  ]
+}
